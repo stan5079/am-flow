@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "am-flow"
+version = "0.1.0"
+description = "AM-Flow programming test"
+authors = ["Stan Mertens <stnmertens@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+requests = "2.28.1"
+slumber = "0.7.1"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "0.21.0"
+black = "22.12.0"
